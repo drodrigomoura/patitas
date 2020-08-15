@@ -1,5 +1,5 @@
 {
-  "name": "patitas.arepa.dev",
+  "name": "patitas",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gndx/patitas.arepa.dev.git"
+    "url": "git+https://github.com/drodrigomoura/patitas.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gndx/patitas.arepa.dev/issues"
+    "url": "https://github.com/drodrigomoura/patitas/issues"
   },
-  "homepage": "https://github.com/gndx/patitas.arepa.dev#readme",
+  "homepage": "https://github.com/drodrigomoura/patitas#readme",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -29,10 +29,12 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^4.2.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
